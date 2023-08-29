@@ -17,10 +17,11 @@ public abstract class Triangulo extends FormaGeometrica {
 
     @Override
     public String toString() {
-        return "Triangulo{" +
-                "lado1=" + lado1 +
-                ", lado2=" + lado2 +
-                ", lado3=" + lado3 +
-                "} " + super.toString();
+        return "Triangulo" +
+                "\nlado1 " + lado1 +
+                "\nlado2 " + lado2 +
+                "lado3 " + lado3 +
+                super.toString();
     }
+
 }

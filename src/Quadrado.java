@@ -19,8 +19,8 @@ public class Quadrado extends FormaGeometrica {
 
     @Override
     public String toString() {
-        return "Quadrado{" +
-                "lado=" + lado +
-                "} " + super.toString();
+        return "Quadrado"+
+                "\nlado " + lado +
+                super.toString();
     }
 }

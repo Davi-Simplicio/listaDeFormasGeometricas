@@ -14,6 +14,6 @@ public class Equilatero extends Triangulo {
 
     @Override
     public String toString() {
-        return "Equilatero{} " + super.toString();
+        return "Equilatero\n" + super.toString();
     }
 }

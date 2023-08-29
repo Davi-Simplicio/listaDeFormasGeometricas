@@ -20,8 +20,8 @@ public class Retangulo extends FormaGeometrica {
     @Override
     public String toString() {
         return "Retangulo{" +
-                "comprimento=" + comprimento +
-                ", largura=" + largura +
-                "} " + super.toString();
+                "\ncomprimento " + comprimento +
+                "\nlargura " + largura +
+                 super.toString();
     }
 }

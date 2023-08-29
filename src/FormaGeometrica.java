@@ -18,10 +18,9 @@ public abstract class FormaGeometrica {
 
     @Override
     public String toString() {
-        return "FormaGeometrica{" +
-                "area=" + calculoArea() +
-                ", perimetro=" + calculoPerimetro() +
-                '}';
+        return "FormaGeometrica" +
+                "\narea " + calculoArea() +
+                "\nperimetro " + calculoPerimetro()+
+                "\n";
     }
-
 }

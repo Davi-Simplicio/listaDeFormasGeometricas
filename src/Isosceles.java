@@ -32,6 +32,6 @@ public class Isosceles extends Triangulo {
 
     @Override
     public String toString() {
-        return "Isosceles{} " + super.toString();
+        return "Isosceles\n " + super.toString();
     }
 }

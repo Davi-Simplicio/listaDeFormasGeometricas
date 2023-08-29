@@ -19,9 +19,9 @@ public class Circulo extends FormaGeometrica {
 
     @Override
     public String toString() {
-        return "Circulo{" +
-                "raio=" + raio +
-                "diametro=" + raio * 2 +
-                "} " + super.toString();
+        return "Circulo" +
+                "\nraio" + raio +
+                "\ndiametro" + raio * 2 +
+                super.toString();
     }
 }

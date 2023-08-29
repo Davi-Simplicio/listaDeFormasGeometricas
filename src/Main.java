@@ -127,14 +127,14 @@ public class Main {
         double raio;
         System.out.println("Qual o comprimento do raio");
         raio = sc.nextDouble();
-        Circulo circulo = new Circulo(raio);
+        new Circulo(raio);
     }
 
     public static void cadastrarQuadrado() {
         double lado;
         System.out.println("Qual o tamnho do lado");
         lado = sc.nextDouble();
-        Quadrado quadrado = new Quadrado(lado);
+        new Quadrado(lado);
     }
 
     public static void cadastrarTriangulo() {
@@ -160,9 +160,9 @@ public class Main {
         System.out.println("qual a largura do retangulo?");
         largura = sc.nextDouble();
         if (comprimento == largura || comprimento <= 0 || largura <= 0) {
-            System.out.println("Isto não é um triângulo");
+            System.out.println("Isto não é um Retangulo");
         } else {
-            Retangulo retangulo = new Retangulo(comprimento, largura);
+           new Retangulo(comprimento, largura);
         }
     }
 }

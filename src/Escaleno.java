@@ -14,6 +14,6 @@ public class Escaleno extends Triangulo {
 
     @Override
     public String toString() {
-        return "Escaleno{} " + super.toString();
+        return "Escaleno\n " + super.toString();
     }
 }
